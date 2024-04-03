@@ -78,12 +78,14 @@ spotify-song-recommender/
 ├── static/
 │   ├── styles.css
 │   └── main.js
+    |__ style1.css
 │
 ├── templates/
 │   └── index.html
+    |__ login.html
+    |__ signup.html
 │
-├── app.py
-├── cosine_similarity.py
+├── app1.py
 ├── sampled_data.csv
 ├── README.md
 ├── requirements.txt
