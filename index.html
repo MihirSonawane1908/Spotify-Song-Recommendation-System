@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Song Recommender</title>
+    <link rel="stylesheet" href="static/styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <video autoplay muted loop class="video-background">
+        <source src="static\y2mate.com - THIS IS 4K ANIME Jujutsu Kaisen_1080pFHR.mp4" type="video/mp4"> <!-- Update with correct video path -->
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+    
+    <div class="container">
+        <h1>Spotify Song Recommender</h1>
+        <form action="/logout" method="POST">
+            <button class="logout-button" type="submit">Logout</button>
+        </form>
+        <label for="songInput">Search for a song:</label>
+        <div class="autocomplete">
+            <input type="text" id="songInput" placeholder="Enter song name...">
+            <div id="songSuggestions" class="autocomplete-items"></div>
+        </div>
+        <button id="searchButton">Search</button>
+        <div id="songDetails"></div>
+        <button id="recommendationButton" style="display: none;">Get Recommendation</button>
+        <button id="popButton" style="display: none;">Popularity Based Recommendation</button>
+        
+        <div id="genrerecommendationsDiv"></div> <!-- Added div for displaying genre recommendations -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="static/main.js"></script> <!-- Link to your main JavaScript file -->
+</body>
+</html>
