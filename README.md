@@ -16,7 +16,7 @@ The Spotify Song Recommender is a web application that provides song recommendat
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
-- [License](#license)
+  
 
 ## Project Overview
 
@@ -89,7 +89,7 @@ spotify-song-recommender/
 ├── sampled_data.csv
 ├── README.md
 ├── requirements.txt
-└── LICENSE
+
 ```
 
 - **static/**: Contains CSS and JavaScript files for styling and interactivity.
