@@ -112,10 +112,4 @@ Contributions to the Spotify Song Recommender project are welcome! To contribute
 
 Please report any issues or bugs by opening an issue on the GitHub repository.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 Feel free to modify and add more specific details as needed to make the README file comprehensive and tailored to your project.
